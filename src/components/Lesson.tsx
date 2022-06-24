@@ -1,5 +1,6 @@
-import ptBR, { isPast } from 'date-fns';
+import { isPast } from 'date-fns';
 import { format } from 'date-fns/esm';
+import ptBR from 'date-fns/esm/locale/pt-BR/index.js';
 import { CheckCircle, Lock } from 'phosphor-react';
 
 interface LessonProps {
