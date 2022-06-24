@@ -1,9 +1,7 @@
 import { Event } from "./pages/Event";
 
 function App() {
-  return (
-    <Event />
-  );
+  return <Event />;
 }
 
-export default App
+export default App;
