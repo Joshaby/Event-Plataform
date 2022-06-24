@@ -18,14 +18,16 @@ export function Button(props: ButtonProps) {
   return (
     <a
       href={link}
-      className={classnames({
-        [`hover:${hoverColor}`]: hoverColor,
-        [`hover:${hoverTextColor}`]: hoverTextColor,
-        [`border ${borderColor}`]: borderColor,
-        [`${color}`]: color,
-        [`${textColor}`]: textColor,
-        'p-4 text-sm flex items-center rounded font-bold uppercase gap-2 justify-center transition-colors': true,
-      })}
+      className={classnames(
+        'p-4 text-sm flex items-center rounded font-bold uppercase gap-2 justify-center transition-colors',
+        {
+          [`hover:${hoverColor}`]: hoverColor,
+          [`hover:${hoverTextColor}`]: hoverTextColor,
+          [`border ${borderColor}`]: borderColor,
+          [`${color}`]: color,
+          [`${textColor}`]: textColor,
+        }
+      )}
     >
       {icon}
       {text}
