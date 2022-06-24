@@ -1,6 +1,7 @@
 import { DiscordLogo, FileArrowDown, Image, Lightning } from 'phosphor-react';
-import { Button } from './Button';
-import { ButtonCard } from './ButtonCard';
+import { Button } from './commons/Button';
+import { ButtonCard } from './commons/ButtonCard';
+import { Footer } from './commons/Footer';
 
 export function Video() {
   return (
@@ -67,6 +68,7 @@ export function Video() {
           />
         </div>
         <div />
+        <Footer />
       </div>
     </div>
   );

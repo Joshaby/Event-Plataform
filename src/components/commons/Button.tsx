@@ -34,3 +34,10 @@ export function Button(props: ButtonProps) {
     </a>
   );
 }
+
+Button.defaultProps = {
+  textColor: '',
+  hoverTextColor: '',
+  color: '',
+  borderColor: '',
+};

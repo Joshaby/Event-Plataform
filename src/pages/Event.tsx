@@ -1,8 +1,8 @@
-import { Header } from "../components/Header"
-import { Sidebar } from "../components/Sidebar"
-import { Video } from "../components/Video"
+import { Header } from '../components/Header';
+import { Sidebar } from '../components/Sidebar';
+import { Video } from '../components/Video';
 
-export const Event = () => {
+export function Event() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -11,5 +11,5 @@ export const Event = () => {
         <Sidebar />
       </main>
     </div>
-  )
+  );
 }
