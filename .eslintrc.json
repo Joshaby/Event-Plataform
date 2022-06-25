@@ -26,8 +26,10 @@
   ],
   "rules": {
     "import/no-unresolved": "error",
+    "@typescript-eslint/no-non-null-assertion": "off",
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "react/jsx-filename-extension": [
       2,
       {
