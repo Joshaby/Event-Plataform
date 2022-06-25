@@ -13,7 +13,7 @@ export function Footer(props: FooterProps) {
       className={classnames('mt-20 border-t border-gray-600', { 'w-full px-6 pb-4 bg-gray-900': page === 'home' })}
     >
       <div
-        className={classnames('flex items-center justify-between mt-6', { 'max-w-[1200px] mx-auto': page === 'home' })}
+        className={classnames('flex items-center justify-between mt-6', { 'max-w-[1210px] mx-auto': page === 'home' })}
       >
         <div className="flex flex-1 gap-2 items-center">
           <img src={logoRocketseat} alt="" />
